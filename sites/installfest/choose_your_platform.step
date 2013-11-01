@@ -6,5 +6,7 @@ message <<-MARKDOWN
 ## Click here if you are using a [PC running Windows](windows)
 
 ## Click here if you are using a [PC running Linux](linux)
+
+## Click here if you are using [Nitrous.io](nitrous)
   MARKDOWN
 end

@@ -3,7 +3,7 @@ This site is maintained by RailsBridge volunteers. If you find something that co
 MARKDOWN
 
 site_desc 'installfest', <<-MARKDOWN
-Instructions for installing Ruby and Rails on your computer. You are required to do this before going to a Rails workshop!
+Instructions for installing Ruby and Rails on your computer or using Nitrous.io's Web-based development platform. You are required to do this before going to a Rails workshop!
 MARKDOWN
 
 site_desc 'curriculum', <<-MARKDOWN

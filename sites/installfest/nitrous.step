@@ -1,0 +1,33 @@
+message <<-MARKDOWN
+These instructions should be sufficient to prepare you to create your first Rails app on Nitrous.io.
+MARKDOWN
+
+step "Create a Nitrous.io Account" do
+
+  message <<-MARKDOWN
+  Go to <https://www.nitrous.io/> and click on the "Sign Up for Free" button.
+
+  Enter a username, your email address and a password.
+
+  Click on the "Sign Up" button.
+
+  Check your email and follow the steps in the account activation email you receive from Nitrous.io.
+
+  MARKDOWN
+end
+
+step "Configure your Nitrous Box" do
+  message <<-MARKDOWN
+  Browse the intro screens by clicking on the "Next" button until you reach the "Okay, I'm Ready!" button and click on it.
+
+  Click on the "Ruby/Rails" button. Note that there may be no visual change to the screen since "Ruby/Rails" is the default selection.
+
+  Choose a name for your box and select the closest geographical location to your current location.
+
+  Do not change the remainder of the options to ensure your account remains free.
+
+  Click on the "Create Box" button.
+  MARKDOWN
+end
+
+next_step "create_and_deploy_a_rails_app"
