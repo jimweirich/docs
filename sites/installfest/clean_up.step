@@ -4,6 +4,8 @@ Ok, there is one more step. You won't be using the test applications in the work
 MARKDOWN
 
 step "Delete the apps from Heroku" do
+  tip "Nitrous users skip this step."
+
   message "Go to <https://heroku.com/myapps>, login if needed, and then click on your first (lyrical) app name. Click on settings. Scroll to the bottom of the page and click Delete App. Enter app name, confirm, and then repeat for the second app."
 end
 
@@ -14,7 +16,7 @@ step "Delete the test_app from your computer" do
   option "Mac" do
     message "Open your home directory and drag the test_app folder to the trash."
   end
-  option "Linux" do
+  option "Linux & Nitrous" do
     console "rm -rf ~/railsbridge/test_app"
   end
 end 

@@ -14,7 +14,7 @@ verify "tool installation" do
   console "sqlite3 --version"
   fuzzy_result "3{FUZZY}.x.x{/FUZZY}"
 
-  h3 "On all operating systems:"
+  h3 "On all platforms:"
 
   console "ruby -v"
   fuzzy_result "ruby 1.9{FUZZY}.3p125 (2012-02-16 revision 34643) [x86_64-darwin11.3.0]{/FUZZY}"
@@ -109,7 +109,7 @@ Your bundle is complete! Use `bundle show [gemname]` to see where a bundled gem 
   RESULT
 
   message <<-BROWSER_VERIFY
-In your web browser, go to <http://localhost:3000/drinks>
+In your web browser, go to <http://localhost:3000/drinks> or "Preview > Port 3000" on Nitrous.
 
 1. Click on "New drink"
 2. Enter Cappuccino for the name
@@ -177,6 +177,8 @@ verify "git" do
 # On branch master
 nothing to commit (working directory clean)"
 end
+
+tip "If you're using Nitrous, skip to the last step!"
 
 verify "heroku deploy" do
   important "Each application has its own `Gemfile`. Be sure you're opening the one inside your sticker app's folder."
