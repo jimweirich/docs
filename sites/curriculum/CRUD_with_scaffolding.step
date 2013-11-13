@@ -21,6 +21,7 @@ steps {
 
   step {
     message "Point your browser to [http://localhost:3000/topics](http://localhost:3000/topics)"
+    message "(If you are using Nitrous, Select the '**Preview / Port 3000**' menu option in the IDE)"
     message "You should see a page listing topics that looks something like this:"
 
     img src: "img/Seattle_topic_list_page.png", alt: "Topic List Page"
